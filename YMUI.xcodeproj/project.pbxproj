@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		699C48681C5F2BAD005DC3AB /* YMUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 699C48671C5F2BAD005DC3AB /* YMUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		699C48701C5F2CCA005DC3AB /* ActionSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699C486F1C5F2CCA005DC3AB /* ActionSheet.swift */; };
+		699C489E1C5F44A5005DC3AB /* CGGeometryExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699C489D1C5F44A5005DC3AB /* CGGeometryExtension.swift */; };
+		699C48A01C5F4A9B005DC3AB /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699C489F1C5F4A9B005DC3AB /* UIViewExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -16,6 +18,8 @@
 		699C48671C5F2BAD005DC3AB /* YMUI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YMUI.h; sourceTree = "<group>"; };
 		699C48691C5F2BAD005DC3AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		699C486F1C5F2CCA005DC3AB /* ActionSheet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActionSheet.swift; sourceTree = "<group>"; };
+		699C489D1C5F44A5005DC3AB /* CGGeometryExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGGeometryExtension.swift; sourceTree = "<group>"; };
+		699C489F1C5F4A9B005DC3AB /* UIViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,11 +52,21 @@
 		699C48661C5F2BAD005DC3AB /* YMUI */ = {
 			isa = PBXGroup;
 			children = (
+				699C489C1C5F4483005DC3AB /* Extension */,
 				699C48671C5F2BAD005DC3AB /* YMUI.h */,
 				699C48691C5F2BAD005DC3AB /* Info.plist */,
 				699C486F1C5F2CCA005DC3AB /* ActionSheet.swift */,
 			);
 			path = YMUI;
+			sourceTree = "<group>";
+		};
+		699C489C1C5F4483005DC3AB /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				699C489D1C5F44A5005DC3AB /* CGGeometryExtension.swift */,
+				699C489F1C5F4A9B005DC3AB /* UIViewExtension.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -133,7 +147,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				699C48A01C5F4A9B005DC3AB /* UIViewExtension.swift in Sources */,
 				699C48701C5F2CCA005DC3AB /* ActionSheet.swift in Sources */,
+				699C489E1C5F44A5005DC3AB /* CGGeometryExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
